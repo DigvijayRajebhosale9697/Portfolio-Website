@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: black
 }
 .icon{
     margin-right: 10px;
@@ -86,7 +87,8 @@
   .Footer{
     position: relative;
     width: 100%;
-    background:#3586ff;
+    /* background:#3586ff; */
+    background: black;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -115,7 +117,7 @@
   }
   .Social-icon li a:hover{
     transform: translateY(-10px);
-   background-color: white;
+   /* background-color: white; */
    /* border-radius: 50%; */
   }
   .Menu li a{
@@ -143,7 +145,7 @@
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(Images/wave.png);
+  background: url(Images/wave3.png);
   background-size: 1000px 100px;
   }
   .Footer .Wave#Wave1{
