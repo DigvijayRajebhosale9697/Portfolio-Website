@@ -99,7 +99,6 @@
 @media(max-width:1124px){
   .container-Edu{
       width: 85%;
-      margin-top: 50px;
   }
 }
 @media(max-width:933px){
@@ -107,7 +106,7 @@
       width: 80%;
   }
   .main{
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .paragraphe{
       font-size: 12px;
@@ -182,7 +181,7 @@
   background-position: 100% 25%;
 }
 .Sub-Container5-B{
-margin-top: 130px;
+margin-top: 150px;
 }
 }
 @media (max-width: 978px) {
