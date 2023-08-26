@@ -1,0 +1,217 @@
+
+/*MENU*/
+@media (max-width: 768px) {
+    .Hamburger {
+      display: block;
+    }
+    .Nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #ffffff;
+      width: 100%;
+    }
+    .Nav.active {
+      display: inline-block;
+    }
+    .Nav ul li {
+      list-style: none;
+      padding: 0px 0px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+  /*CONTAINER 1*/
+  @media (max-width: 968px) {
+    .Container {
+      flex-direction: column;
+      height: 50vh;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .H1-MAIN {
+      margin-top: 120px;
+      font-size: 35px;
+    }
+    .HeadBTN {
+      padding: 6px;
+    }
+    .Container p {
+      font-size: 10px;
+    }
+    .IMG-BOX {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      top: 100px;
+      right: 20px;
+    }
+    .IMG-BOX img {
+      height: 100%;
+      position: absolute;
+      transition: 1s;
+    }
+    .LOGOS {
+      margin-top: 0;
+    }
+    .Container2 {
+        padding: 0;
+        margin-top: 50px;
+        font-size: 10px;
+        box-shadow: none;
+        height: 65vh;
+      }
+  }
+  @media (max-width: 768px) {
+    .Container {
+      flex-direction: column;
+      height: 85vh;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .H1-MAIN {
+      margin-top: 0;
+      font-size: 35px;
+    }
+    .IMG-BOX {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      top: 200px;
+      right: 50px;
+    }
+  }
+  @media (max-width: 500px) {
+    .IMG-BOX {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      top: 400px;
+      right: 100px;
+    }
+  }
+
+@media(max-width:1124px){
+    .container-Edu{
+        width: 85%;
+    }
+}
+@media(max-width:933px){
+    .container-Edu{
+        width: 80%;
+    }
+  
+    .paragraphe{
+        font-size: 12px;
+    }
+    .main .heading {
+        font-size: 20px;
+      }
+    .container-Edu ul::after{
+        left: -30px;
+    }
+    .container-Edu ul li{
+        width: 100%;
+        float: none;
+        clear: none;
+        margin-bottom: 80px;
+    }
+    .container-Edu ul li:nth-child(odd){
+        transform: translateX(0);
+        text-align: left;
+    }
+    .container-Edu ul li:nth-child(even){
+        transform: translateX(0);
+    }
+    .container-Edu ul li:nth-child(even).date{
+        left: 600px;
+    }
+}
+@media screen and (max-width: 968px) {
+
+  .Container4 {
+    padding: 0;
+    font-size: 10px;
+    height: 60vh;
+  }
+  .skills_main {
+    margin-left: auto;
+  }
+  .Paragraph {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .SubContainer6 {
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 1024px) {
+  .Container5{
+    font-size: 10px;
+  }
+  .Sub-Container5 {
+    flex-direction: column;
+    height: 200vh;
+    margin-top: 100px;
+  }
+  .Text{
+    font-size: 16px;
+  }
+  .Gallery {
+    width: 80%;
+    grid-auto-rows: 180px;
+  }
+  .Box {
+    grid-row: span 1;
+    grid-column: span 4;
+  }
+  .Box:hover {
+    background-position: 100% 25%;
+  }
+  .Sub-Container5-B{
+margin-top: 80px;
+  }
+}
+@media (max-width: 978px) {
+  .Container-6 {
+    margin-top: 35px;
+  }
+  .SubContainer6 {
+    margin-top: 0;
+  }
+  .C6 input textarea{
+width: auto;
+  }
+.BTN2 {
+ margin: auto;
+ padding: 8px;
+
+}
+.D6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+}
+@media(max-width:500){
+  .Footer{
+    min-height: 50px;
+  }
+  .Social-icon,.Menu{
+    margin: 0;
+  }
+  .Social-icon li a{
+    margin: 0 ;
+}
+}
