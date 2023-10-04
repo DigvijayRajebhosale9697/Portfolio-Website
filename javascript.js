@@ -55,3 +55,5 @@ window.addEventListener('DOMContentLoaded', () => {
     }, 2500)
   });
 });
+
+// ONE h1,.P-MAIN,

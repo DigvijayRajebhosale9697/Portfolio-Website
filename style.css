@@ -225,11 +225,11 @@ Nav ul li a:hover {
   );
   transform: translateX(-50%);
 }
-/* .container-Edu {
+.container-Edu {
   width: 70%;
   height: auto;
   position: relative;
-} */
+}
 .container-Edu::after {
   position: absolute;
   content: "";
