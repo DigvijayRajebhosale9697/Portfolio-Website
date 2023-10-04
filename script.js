@@ -51,7 +51,7 @@ T3.from(' #Education',{
     {
         trigger:'#Education',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'top 50%',
         end:'top 10%',
         scrub:5
@@ -68,7 +68,7 @@ T3.from('.Container4 .heading2, .Container4 .paragraph, .Skills-Section',{
     {
         trigger:'.Container4 .heading2, .Container4 .paragraph, .Skills-Section',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'top 60%',
         end:'top 10%',
         scrub:5
